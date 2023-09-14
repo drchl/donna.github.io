@@ -1,0 +1,60 @@
+
+.test {
+	background-color:  #190d50;
+	position: absolute;
+	top: 0px;
+	right: 0%;
+	width: 1500px;
+	height: 660px;
+}
+
+a.one:link {
+	color: whitesmoke;
+	position: absolute;
+	top:16px;
+	left:40px;
+	font-size: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	
+}
+a.one:visited {
+	color: whitesmoke;
+}
+a.one:hover {
+	color:rgba(253, 253, 253, 0.76);
+}
+
+a.two:link {
+	color:whitesmoke;
+	position: absolute;
+	top:16px;
+	left:135px;
+	font-size: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+a.two:visited {
+	color:whitesmoke;
+}
+a.two:hover {
+	color:rgba(253, 253, 253, 0.76);
+}
+
+a.three:link {
+	color:whitesmoke;
+	position:absolute;
+	top:16px;
+	left:250px;
+	font-size: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+a.three:visited {
+	color: whitesmoke;
+}
+a.three:hover {
+	color:rgba(253, 253, 253, 0.76);
+}
+
+
