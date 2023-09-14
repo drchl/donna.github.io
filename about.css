@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
 .test {
 	background-color: #190d50;
 	position: absolute;
@@ -13,7 +14,7 @@ a.one:link {
 	top:16px;
 	left:40px;
 	font-size: 15px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:'Nunito Sans', sans-serif;
 	text-decoration:none;
 	
 }
