@@ -14,8 +14,10 @@ a.one:link {
 	top:16px;
 	left:40px;
 	font-size: 15px;
-	font-family:'Nunito Sans', sans-serif;
-	text-decoration:none;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family: 'Nunito Sans', sans-serif;
+	text-decoration: none; 
 	
 }
 a.one:visited {
@@ -31,7 +33,9 @@ a.two:link {
 	top:16px;
 	left:135px;
 	font-size: 15px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family:'Nunito Sans', sans-serif;
 	text-decoration:none;
 }
 a.two:visited {
@@ -47,7 +51,9 @@ a.three:link {
 	top:16px;
 	left:250px;
 	font-size: 15px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family:'Nunito Sans', sans-serif;
 	text-decoration:none;
 }
 a.three:visited {
