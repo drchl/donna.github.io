@@ -63,7 +63,7 @@ h2:hover{
 }
 p1{
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
@@ -84,7 +84,7 @@ p2{
 	left:180px;
 	line-height: 30px;
 	letter-spacing: 1px;
-	padding-right: 35%;
+	padding-right:120px;
 }
 p3{ /*my foundational skills*/
 	font-family: 'Nunito Sans', sans-serif;
@@ -103,7 +103,7 @@ p3{ /*my foundational skills*/
 }	
 p4{  /*at the Polytechnic University*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
@@ -116,8 +116,8 @@ p4{  /*at the Polytechnic University*/
 }
 p5{ /*of the Philippines*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 17px;
-	color: whitesmoke;
+	font-size: 20px;
+	color: whitesmoke
 	cursor: crosshair;
 	position: absolute;
 	left:123px;
