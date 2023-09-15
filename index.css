@@ -117,7 +117,7 @@ p4{  /*at the Polytechnic University*/
 p5{ /*of the Philippines*/
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 20px;
-	color: whitesmoke
+	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
 	left:123px;
@@ -195,8 +195,7 @@ a.four:link{
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 13px;
-	padding-bottom: 13px;
+	
 	padding-right:18px;
 	padding-left:18px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -228,8 +227,7 @@ a.four:hover {
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 13px;
-	padding-bottom: 13px;
+	
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -257,8 +255,7 @@ a.five:hover {
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 13px;
-	padding-bottom: 13px;
+	
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -287,151 +284,6 @@ p6{
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 13px;
-	padding-bottom: 13px;
-	padding-right:21px;
-	padding-left:21px ;
-	border-color:  rgba(249, 205, 255, 0.829);
-	border-radius:10px;
-}
-p6:visited {
-	color:  rgba(249, 205, 255, 0.829);
-}
-p6:hover {
-	color: rgba(249, 205, 255, 0.829);
-	background-color:  rgba(249, 205, 255, 0.123);
-	overflow: hidden;
-	transition: all 1s;
-}
-}
-a.two:visited {
-	color:whitesmoke;
-}
-a.two:hover {
-	color:rgba(253, 253, 253, 0.76);
-}
-
-a.three:link {
-	color:whitesmoke;
-	position:absolute;
-	top:16px;
-	left:250px;
-	font-size: 15px;
-	font-weight: 100;
-	letter-spacing: 1px;
-	font-family:'Nunito Sans', sans-serif;
-	text-decoration:none;
-}
-a.three:visited {
-	color: whitesmoke;
-}
-a.three:hover {
-	color:rgba(253, 253, 253, 0.76);
-}
-
-
-a.four:link{
-	color: rgba(249, 205, 255, 0.829);
-	position:absolute;
-	bottom:70px;
-	left:210px;
-	font-size: 15px;
-	font-weight: 10px;
-	font-family:'Nunito Sans', sans-serif;
-	letter-spacing: 1px;
-	text-decoration:none;
-	border-style:solid;
-	padding:10px;
-	
-	padding-right:18px;
-	padding-left:18px ;
-	border-color:  rgba(249, 205, 255, 0.829);
-	border-radius:100%;
-
-	
-}
-
-a.four:visited {
-	color:  rgba(249, 205, 255, 0.829);
-}
-a.four:hover {
-	color: rgba(249, 205, 255, 0.829);
-	background-color:   rgba(249, 205, 255, 0.123);
-	overflow: hidden;
-	transition: all 1s;
-}
-
-.five{
-
-	color: rgba(249, 205, 255, 0.829);
-	position:absolute;
-	bottom:70px;
-	left:130px;
-	font-size: 15px;
-	font-weight: 10px;
-	font-family:'Nunito Sans', sans-serif;
-	letter-spacing: 1px;
-	text-decoration:none;
-	border-style:solid;
-	padding:10px;
-	
-	padding-right:21px;
-	padding-left:21px ;
-	border-color:  rgba(249, 205, 255, 0.829);
-	border-radius:100%;
-}
-a.five:visited {
-	color:  rgba(249, 205, 255, 0.829);
-}
-a.five:hover {
-	color: rgba(249, 205, 255, 0.829);
-	background-color:   rgba(249, 205, 255, 0.123);
-	overflow: hidden;
-	transition: all 1s;
-}
-.six{
-
-	color: rgba(249, 205, 255, 0.829);
-	position:absolute;
-	bottom:200px;
-	left:135px;
-	font-size: 15px;
-	font-weight: 10px;
-	font-family:'Nunito Sans', sans-serif;
-	letter-spacing: 1px;
-	text-decoration:none;
-	border-style:solid;
-	padding:10px;
-	
-	padding-right:21px;
-	padding-left:21px ;
-	border-color:  rgba(249, 205, 255, 0.829);
-	border-radius:10px;
-}
-a.six:visited {
-	color:  rgba(249, 205, 255, 0.829);
-}
-a.six:hover {
-	color: rgba(249, 205, 255, 0.829);
-	background-color:  rgba(249, 205, 255, 0.123);
-	overflow: hidden;
-	transition: all 1s;
-}
-
-p6{
-
-	color: rgba(249, 205, 255, 0.829);
-	position:absolute;
-	bottom:200px;
-	left:250px;
-	font-size: 15px;
-	font-weight: 10px;
-	font-family:'Nunito Sans', sans-serif;
-	letter-spacing: 1px;
-	text-decoration:none;
-	border-style:solid;
-	padding:10px;
-	
 	
 	padding-right:21px;
 	padding-left:21px ;
