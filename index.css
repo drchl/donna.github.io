@@ -1,15 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
 
+
 .test {
-	background-color:black;
+	background-color: #262c41;
 	position: absolute;
 	top: 0px;
 	right: 0%;
-	width: 1440px;
-	height: 1080px;
+	width: 1500px;
+	height: 700px;
+}
+@media only screen and (max-width:600px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:600px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:768px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:992px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:1200px) {	
+	.test {background:black;}			 
 }
 
+
+  
 h1  {
 	
 	font-family:'Poppins', sans-serif;
@@ -18,12 +36,9 @@ h1  {
 	cursor: crosshair;
 	position: absolute;
 	font-weight: bold;
-	top: 10%;
-	right:77.5%;
-	line-height: 75px;
-	justify-content: center;
-	align-content: center;
-	
+	top: 120px;
+	left:120px;
+
 }
 h2{
 	font-family:'Poppins', sans-serif;
@@ -32,24 +47,19 @@ h2{
 	cursor: crosshair;
 	position: absolute;
 	font-weight: bold;
-	top: 8.5%;
-	right:61%;
-	line-height: 75px;
-	justify-content: center;
-	align-content: center;
+	top: 110px;
+	left:320px;
+	
 }
 h2:hover{
-	font-family: 'Poppins', sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size: 60px;
-	color: rgba(249, 205, 255, 0.829);
+	color: rgba(249, 205, 255, 0.875);
+	cursor: crosshair;
 	position: absolute;
-	top: 18.6%;
-	right:61.5%;
-	line-height: 75px;
-	justify-content: center;
-	align-content: center;
-	overflow:hidden;
-	transition: all 1s;
+	font-weight: bold;
+	top: 110px;
+	left:320px;
 }
 p1{
 	font-family: 'Nunito Sans', sans-serif;
@@ -57,8 +67,8 @@ p1{
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
-	left:9.4%;
-	top: 40%;
+	left:123px;
+	top: 250px;
 	line-height:30px;
 	letter-spacing: 1px;
 	padding-right: 35%;
@@ -70,46 +80,48 @@ p2{
 	color:  rgba(249, 205, 255, 0.829);
 	cursor: crosshair;
 	position: absolute;
-	top: 40%;
-	left:13.8%;
+	top: 250px;
+	left:180px;
 	line-height: 30px;
 	letter-spacing: 1px;
 	padding-right: 35%;
 }
-p3{
+p3{ /*my foundational skills*/
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 17px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
-	top: 50%;
-	left:9.3%;
+	top: 320px;
+	left:123px;
 	line-height: 30px;
+	text-wrap:balance;
 	letter-spacing: 1px;
-	padding-right:39%;
+	padding-right:120px;
+	
 	
 }	
-p4{
+p4{  /*at the Polytechnic University*/
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 17px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
-	left:41%;
-	top: 40%;
+	left:550px;
+	top: 250px;
 	line-height:30px;
 	letter-spacing: 1px;
-	padding-right:35%;
+	
 	
 }
-p5{
+p5{ /*of the Philippines*/
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 17px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
-	left:9.3%;
-	top: 44%;
+	left:123px;
+	top: 280px;
 	line-height:30px;
 	letter-spacing: 1px;
 	
@@ -144,6 +156,153 @@ a.two:link {
 	letter-spacing: 1px;
 	font-family:'Nunito Sans', sans-serif;
 	text-decoration:none;
+}
+a.two:visited {
+	color:whitesmoke;
+}
+a.two:hover {
+	color:rgba(253, 253, 253, 0.76);
+}
+
+a.three:link {
+	color:whitesmoke;
+	position:absolute;
+	top:16px;
+	left:250px;
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family:'Nunito Sans', sans-serif;
+	text-decoration:none;
+}
+a.three:visited {
+	color: whitesmoke;
+}
+a.three:hover {
+	color:rgba(253, 253, 253, 0.76);
+}
+
+
+a.four:link{
+	color: rgba(249, 205, 255, 0.829);
+	position:absolute;
+	top:500px;
+	left:210px;
+	font-size: 15px;
+	font-weight: 10px;
+	font-family:'Nunito Sans', sans-serif;
+	letter-spacing: 1px;
+	text-decoration:none;
+	border-style:solid;
+	padding:10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right:18px;
+	padding-left:18px ;
+	border-color:  rgba(249, 205, 255, 0.829);
+	border-radius:100%;
+
+	
+}
+
+a.four:visited {
+	color:  rgba(249, 205, 255, 0.829);
+}
+a.four:hover {
+	color: rgba(249, 205, 255, 0.829);
+	background-color:   rgba(249, 205, 255, 0.123);
+	overflow: hidden;
+	transition: all 1s;
+}
+
+.five{
+
+	color: rgba(249, 205, 255, 0.829);
+	position:absolute;
+	top:500px;
+	left:130px;
+	font-size: 15px;
+	font-weight: 10px;
+	font-family:'Nunito Sans', sans-serif;
+	letter-spacing: 1px;
+	text-decoration:none;
+	border-style:solid;
+	padding:10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right:21px;
+	padding-left:21px ;
+	border-color:  rgba(249, 205, 255, 0.829);
+	border-radius:100%;
+}
+a.five:visited {
+	color:  rgba(249, 205, 255, 0.829);
+}
+a.five:hover {
+	color: rgba(249, 205, 255, 0.829);
+	background-color:   rgba(249, 205, 255, 0.123);
+	overflow: hidden;
+	transition: all 1s;
+}
+.six{
+
+	color: rgba(249, 205, 255, 0.829);
+	position:absolute;
+	top:400px;
+	left:135px;
+	font-size: 15px;
+	font-weight: 10px;
+	font-family:'Nunito Sans', sans-serif;
+	letter-spacing: 1px;
+	text-decoration:none;
+	border-style:solid;
+	padding:10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right:21px;
+	padding-left:21px ;
+	border-color:  rgba(249, 205, 255, 0.829);
+	border-radius:10px;
+}
+a.six:visited {
+	color:  rgba(249, 205, 255, 0.829);
+}
+a.six:hover {
+	color: rgba(249, 205, 255, 0.829);
+	background-color:  rgba(249, 205, 255, 0.123);
+	overflow: hidden;
+	transition: all 1s;
+}
+
+p6{
+
+	color: rgba(249, 205, 255, 0.829);
+	position:absolute;
+	top:400px;
+	left:250px;
+	font-size: 15px;
+	font-weight: 10px;
+	font-family:'Nunito Sans', sans-serif;
+	letter-spacing: 1px;
+	text-decoration:none;
+	border-style:solid;
+	padding:10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right:21px;
+	padding-left:21px ;
+	border-color:  rgba(249, 205, 255, 0.829);
+	border-radius:10px;
+}
+p6:visited {
+	color:  rgba(249, 205, 255, 0.829);
+}
+p6:hover {
+	color: rgba(249, 205, 255, 0.829);
+	background-color:  rgba(249, 205, 255, 0.123);
+	overflow: hidden;
+	transition: all 1s;
+}
 }
 a.two:visited {
 	color:whitesmoke;
