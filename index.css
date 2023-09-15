@@ -342,8 +342,7 @@ a.four:link{
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 5px;
-	padding-bottom: 5x;
+	
 	padding-right:18px;
 	padding-left:18px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -375,8 +374,7 @@ a.four:hover {
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 13px;
-	padding-bottom: 13px;
+	
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -404,8 +402,7 @@ a.five:hover {
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 13px;
-	padding-bottom: 13px;
+	
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -434,8 +431,8 @@ p6{
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	padding-top: 13px;
-	padding-bottom: 13px;
+	
+	
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
