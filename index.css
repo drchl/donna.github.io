@@ -18,7 +18,7 @@ h1  {
 	cursor: crosshair;
 	position: absolute;
 	font-weight: bold;
-	top: 20%;
+	top: 10%;
 	right:77.5%;
 	line-height: 75px;
 	justify-content: center;
@@ -26,12 +26,13 @@ h1  {
 	
 }
 h2{
-	font-family: 'Poppins', sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size: 60px;
-	color:whitesmoke;
+	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
-	top: 18.6%;
+	font-weight: bold;
+	top: 8.5%;
 	right:61.5%;
 	line-height: 75px;
 	justify-content: center;
