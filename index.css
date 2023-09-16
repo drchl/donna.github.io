@@ -61,9 +61,9 @@ h2:hover{
 	top: 110px;
 	left:320px;
 }
-p1{
+p1{ /*I am a*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
@@ -74,7 +74,7 @@ p1{
 	padding-right: 35%;
 	
 }	
-p2{
+p2{ /* Freshman Information Technology student*/
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 17px;
 	color:  rgba(249, 205, 255, 0.829);
@@ -103,7 +103,7 @@ p3{ /*my foundational skills*/
 }	
 p4{  /*at the Polytechnic University*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
