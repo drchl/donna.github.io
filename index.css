@@ -5,8 +5,8 @@
 .test {
 	background-color: #262c41;
 	position: absolute;
-	bottom:-1px;
-	right: -1px;
+	top:10px;
+	left: 10px;
 	width: 1530px;
 	height: 2030px;
 }
