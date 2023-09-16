@@ -5,10 +5,9 @@
 .test {
 	background-color: #262c41;
 	position: absolute;
-	top:10px;
-	left: 10px;
-	width: 1530px;
-	height: 2030px;
+	margin:0;
+	background-size: cover;
+	height: 100%;
 }
 @media only screen and (max-width:600px) {	
 	.test {background:black;}			 
