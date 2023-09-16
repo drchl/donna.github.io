@@ -63,13 +63,12 @@ h2:hover{
 }
 p1{ /*I am a*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
 	left:123px;
 	top: 250px;
-	line-height:30px;
 	letter-spacing: 1px;
 	padding-right: 35%;
 	
@@ -82,7 +81,6 @@ p2{ /* Freshman Information Technology student*/
 	position: absolute;
 	top: 250px;
 	left:180px;
-	line-height: 30px;
 	letter-spacing: 1px;
 	padding-right:120px;
 }
