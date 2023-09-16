@@ -7,8 +7,8 @@
 	position: absolute;
 	top: 0px;
 	right: 0%;
-	width: 1510px;
-	height: 2010px;
+	width: 1530px;
+	height: 2030px;
 }
 @media only screen and (max-width:600px) {	
 	.test {background:black;}			 
