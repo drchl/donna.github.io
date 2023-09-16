@@ -3,23 +3,35 @@
 
 
 .test {
-	background-color: #black;
+	background-color: #262c41;
 	position: absolute;
-	bottom:10px;
-	right:10px;
-	width:1200px;
-	height:2100px;
-
-
-
-
+	top: 0px;
+	right: 0%;
+	width: 1500px;
+	height: 700px;
+}
+@media only screen and (max-width:600px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:600px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:768px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:992px) {	
+	.test {background:black;}			 
+}
+@media only screen and (min-width:1200px) {	
+	.test {background:black;}			 
+}
 
 
   
 h1  {
 	
 	font-family:'Poppins', sans-serif;
-	font-size: 80px;
+	font-size: 60px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
@@ -30,7 +42,7 @@ h1  {
 }
 h2{
 	font-family:'Poppins', sans-serif;
-	font-size: 80px;
+	font-size: 60px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
@@ -41,7 +53,7 @@ h2{
 }
 h2:hover{
 	font-family:'Poppins', sans-serif;
-	font-size: 80px;
+	font-size: 60px;
 	color: rgba(249, 205, 255, 0.875);
 	cursor: crosshair;
 	position: absolute;
@@ -49,32 +61,34 @@ h2:hover{
 	top: 110px;
 	left:320px;
 }
-p1{ /*I am a*/
+p1{
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 25px;
+	font-size: 17px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
 	left:123px;
 	top: 250px;
+	line-height:30px;
 	letter-spacing: 1px;
-	padding-right: 120px;
+	padding-right: 35%;
 	
 }	
-p2{ /* Freshman Information Technology student*/
+p2{
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 25px;
+	font-size: 17px;
 	color:  rgba(249, 205, 255, 0.829);
 	cursor: crosshair;
 	position: absolute;
 	top: 250px;
-	left:185px;
+	left:180px;
+	line-height: 30px;
 	letter-spacing: 1px;
-	padding-right:120px;
+	padding-right: 35%;
 }
 p3{ /*my foundational skills*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 25px;
+	font-size: 17px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
@@ -89,11 +103,11 @@ p3{ /*my foundational skills*/
 }	
 p4{  /*at the Polytechnic University*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 25px;
+	font-size: 17px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
-	left:580px;
+	left:550px;
 	top: 250px;
 	line-height:30px;
 	letter-spacing: 1px;
@@ -102,7 +116,7 @@ p4{  /*at the Polytechnic University*/
 }
 p5{ /*of the Philippines*/
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 25px;
+	font-size: 17px;
 	color: whitesmoke;
 	cursor: crosshair;
 	position: absolute;
@@ -113,7 +127,7 @@ p5{ /*of the Philippines*/
 	
 }
 
-a.one:link { /*home*/
+a.one:link {
 	color: whitesmoke;
 	position: absolute;
 	top:16px;
@@ -132,7 +146,7 @@ a.one:hover {
 	color:rgba(253, 253, 253, 0.76);
 }
 
-a.two:link { /*projects*/
+a.two:link {
 	color:whitesmoke;
 	position: absolute;
 	top:16px;
@@ -150,7 +164,7 @@ a.two:hover {
 	color:rgba(253, 253, 253, 0.76);
 }
 
-a.three:link { /*experience*/
+a.three:link {
 	color:whitesmoke;
 	position:absolute;
 	top:16px;
@@ -169,10 +183,10 @@ a.three:hover {
 }
 
 
-a.four:link{ /*linkedin*/
+a.four:link{
 	color: rgba(249, 205, 255, 0.829);
 	position:absolute;
-	top:550px;
+	top:500px;
 	left:210px;
 	font-size: 15px;
 	font-weight: 10px;
@@ -181,7 +195,8 @@ a.four:link{ /*linkedin*/
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	
+	padding-top: 13px;
+	padding-bottom: 13px;
 	padding-right:18px;
 	padding-left:18px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -200,11 +215,11 @@ a.four:hover {
 	transition: all 1s;
 }
 
-.five{ /*facebook*/
+.five{
 
 	color: rgba(249, 205, 255, 0.829);
 	position:absolute;
-	top:550px;
+	top:500px;
 	left:130px;
 	font-size: 15px;
 	font-weight: 10px;
@@ -213,7 +228,8 @@ a.four:hover {
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	
+	padding-top: 13px;
+	padding-bottom: 13px;
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -228,11 +244,11 @@ a.five:hover {
 	overflow: hidden;
 	transition: all 1s;
 }
-.six{ /*github*/
+.six{
 
 	color: rgba(249, 205, 255, 0.829);
 	position:absolute;
-	top:450px;
+	top:400px;
 	left:135px;
 	font-size: 15px;
 	font-weight: 10px;
@@ -241,7 +257,8 @@ a.five:hover {
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	
+	padding-top: 13px;
+	padding-bottom: 13px;
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -257,11 +274,11 @@ a.six:hover {
 	transition: all 1s;
 }
 
-p6{ /*gmail*/
+p6{
 
 	color: rgba(249, 205, 255, 0.829);
 	position:absolute;
-	top:450px;
+	top:400px;
 	left:250px;
 	font-size: 15px;
 	font-weight: 10px;
@@ -270,7 +287,8 @@ p6{ /*gmail*/
 	text-decoration:none;
 	border-style:solid;
 	padding:10px;
-	
+	padding-top: 13px;
+	padding-bottom: 13px;
 	padding-right:21px;
 	padding-left:21px ;
 	border-color:  rgba(249, 205, 255, 0.829);
@@ -283,5 +301,7 @@ p6:hover {
 	color: rgba(249, 205, 255, 0.829);
 	background-color:  rgba(249, 205, 255, 0.123);
 	overflow: hidden;
+	transition: all 1s;
+}
 	transition: all 1s;
 }
