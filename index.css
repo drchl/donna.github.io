@@ -127,7 +127,7 @@ p5{ /*of the Philippines*/
 	
 }
 
-a.one:link {
+a.one:link { /*home*/
 	color: whitesmoke;
 	position: absolute;
 	top:16px;
@@ -146,7 +146,7 @@ a.one:hover {
 	color:rgba(253, 253, 253, 0.76);
 }
 
-a.two:link {
+a.two:link { /*projects*/
 	color:whitesmoke;
 	position: absolute;
 	top:16px;
@@ -164,7 +164,7 @@ a.two:hover {
 	color:rgba(253, 253, 253, 0.76);
 }
 
-a.three:link {
+a.three:link { /*experience*/
 	color:whitesmoke;
 	position:absolute;
 	top:16px;
@@ -183,7 +183,7 @@ a.three:hover {
 }
 
 
-a.four:link{
+a.four:link{ 
 	color: rgba(249, 205, 255, 0.829);
 	position:absolute;
 	top:500px;
