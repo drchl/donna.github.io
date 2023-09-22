@@ -110,7 +110,7 @@ p5{ /*of the Philippines*/
 	
 }
 
-a.one:link {
+#home:link {
 	color: whitesmoke;
 	position: absolute;
 	top:16px;
@@ -122,10 +122,10 @@ a.one:link {
 	text-decoration: none; 
 	
 }
-a.one:visited {
+#home:visited {
 	color: whitesmoke;
 }
-a.one:hover {
+#home:hover {
 	color:rgba(253, 253, 253, 0.76);
 }
 
