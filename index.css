@@ -19,7 +19,7 @@ h1  {
 	cursor: crosshair;
 	position: absolute;
 	font-weight: bold;
-	top: 120px;
+	top: 140px;
 	left:120px;
 
 }
@@ -30,7 +30,7 @@ h2{
 	cursor: crosshair;
 	position: absolute;
 	font-weight: bold;
-	top: 110px;
+	top: 130px;
 	left:320px;
 	
 }
@@ -41,7 +41,7 @@ h2:hover{
 	cursor: crosshair;
 	position: absolute;
 	font-weight: bold;
-	top: 110px;
+	top: 130px;
 	left:320px;
 }
 p1{
